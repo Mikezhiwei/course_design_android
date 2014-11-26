@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+           <LinearLayout 
+               android:layout_width="fill_parent"
+               android:layout_height="30dp"
+               android:gravity="center"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/item_layout"
+               android:id="@+id/cache_layout_arr_cast">
+                  <TextView 
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/memory_tag_arr_cast"
+                      android:textSize="10sp"
+                      android:layout_marginRight="10dp"
+                      android:text="主存标记"/>
+                   
+                  <TextView 
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/cache_arr_num_arr_cast"
+                     android:text="cache组号"
+                     android:layout_marginLeft="10dp"
+                     android:textSize="10sp"
+                     />
+                  <TextView 
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/cache_arr_inner_num_arr_cast"
+                     android:text="cache组内序号"
+                     android:layout_marginLeft="100dp"
+                     android:textSize="10sp"
+                     />   
+           </LinearLayout>
+</LinearLayout>

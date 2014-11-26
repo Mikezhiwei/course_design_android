@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <LinearLayout 
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+              <Button 
+                  android:id="@+id/method_one_direction"
+                  android:layout_width="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_height="wrap_content"
+                  android:text="直接映射"
+                  android:textColor="#ffffff"/>
+                  <Button 
+                  android:id="@+id/method_two_full"
+                  android:layout_width="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_height="wrap_content"
+                  android:text="全相联系映射"
+                  android:layout_marginTop="20dp"
+                  android:textColor="#ffffff"/>
+                   <Button 
+                  android:id="@+id/method_three_array"
+                  android:layout_width="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_height="wrap_content"
+                  android:text="组相联映射"
+                  android:layout_marginTop="20dp"
+                  android:textColor="#ffffff"/>
+        </LinearLayout>  
+</LinearLayout>
